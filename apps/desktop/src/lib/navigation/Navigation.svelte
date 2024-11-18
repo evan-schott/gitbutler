@@ -87,6 +87,7 @@
 
 		<button
 			type="button"
+			aria-label="Collapse Navigation"
 			class="folding-button"
 			class:resizer-hovered={isResizerHovered || isResizerDragging}
 			on:mousedown={toggleNavCollapse}
